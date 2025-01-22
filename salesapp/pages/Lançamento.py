@@ -56,4 +56,5 @@ if remover_dados:
     df_insumos.to_csv(caminho_datasets / 'Insumos.csv', decimal=',', sep=';')
     st.session_state['dados']['df_insumos'] = df_insumos
 
+
 st.dataframe(df_insumos, height=800)

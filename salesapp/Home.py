@@ -1,4 +1,10 @@
 import streamlit as st
+import pandas as pd 
+
+st.set_page_config(
+    layout='wide',
+    page_title='GALVA 2 '
+)
 
 st.sidebar.image('Image/IVGI.png')
 
